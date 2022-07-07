@@ -56,4 +56,5 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.0'
     implementation "androidx.lifecycle:lifecycle-process:2.5.0"
+
 }
