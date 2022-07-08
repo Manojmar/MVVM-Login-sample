@@ -9,11 +9,9 @@ import com.example.mvvmlogin.model.User
 
 class Loginviewmodel(private val listerner: callback):ViewModel() {
 
-    private var user: User
+    private var user: User=null
 
-    init {
-        this.user=User("","")
-    }
+  
 
     val emailTextWatcher:TextWatcher
     get() = object :TextWatcher{
